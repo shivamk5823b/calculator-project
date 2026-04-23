@@ -1,0 +1,23 @@
+body { text-align: center; margin-top: 20px; }
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 70px); /* fixed button width */
+    gap: 10px;
+    width: max-content;   /* auto fit grid */
+    margin: auto;
+}
+
+#screen {
+    width: calc(4 * 70px + 3 * 10px); /* 4 buttons + 3 gaps */
+    height: 50px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 70px;   /* same as grid */
+    height: 70px;
+    font-size: 20px;
+}
